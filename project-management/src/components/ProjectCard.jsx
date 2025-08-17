@@ -1,23 +1,24 @@
+'use client'
 import Image from "next/image"
 import '../styles/project-card.css'
-
+import { useRouter } from "next/navigation"
 import { Tag } from "./Tag"
-import Member1 from "../images/Capa 2.png"
-import Member2 from "../images/Capa 4.png"
-import Member3 from "../images/Capa 5.png"
-import Member4 from "../images/Capa 6.png"
+import clsx from "clsx"
 
 
-export function ProjectCard() {
+export function ProjectCard({ id, title, image, description, tags, members, status }) {
+
+    const router = useRouter()
+
     return (
         <>
             <div className="project-card-shadow rounded-lg mt-2">
                 <div className="bg-white rounded-md p-2">
                     <div className="flex justify-between items-start">
-                        <p className="text-2xl">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p className="text-2xl">{title}</p>
                         <button>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="size-6">
+                                <path strokeWidth="round" strokeLinecap="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                             </svg>
                         </button>
                     </div>
@@ -25,52 +26,71 @@ export function ProjectCard() {
                         <Image
                             fill
                             style={{ objectFit: 'cover' }}
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+
+                            src={image}
                         />
                     </div>
                     <div className="mt-2 text-[1rem]">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?</p>
+                        <p>{description}</p>
                     </div>
-                    <div>
-                        <Tag />
-                        <Tag />
-                        <Tag />
+                    <div className="flex">
+
+                        {
+                            tags &&
+                            tags?.map((tag, index) => {
+                                if (index <= 2) return (
+                                    <Tag key={index} name={tag} />
+                                )
+                            }
+                            )
+                        }
+
                     </div>
-              
-                        <div className="flex relative my-2 h-4">
+                    <div className="flex relative my-2 h-4">
+                        {
+                            members?.map((member, index) => {
+                                if (index <= 3) {
+                                    return (
+                                        <Image
+                                            key={id}
+                                            width={0}
+                                            height={0}
+                                            src={member.image}
+                                            alt="miembro"
+                                            className={clsx("member-icon", {
+                                                "member-1": index == 0,
+                                                "member-2": index == 1,
+                                                "member-3": index == 2,
+                                                "member-4": index == 3,
+                                            })}
+                                        />
+                                    )
+                                } else if (index == 4) {
+                                    return (
+                                        <div className="member-icon other-members text-white">
+                                            {members.length}
+                                        </div>
+                                    )
+                                }
+                            }
 
-                            <Image
-                                src={Member1}
-                                alt="miembro"
-                                className="member-icon member-1"
-                            />
-                            <Image
-                                src={Member2}
-                                alt="miembro"
-                                className="member-icon member-2"
-                            />
-                            <Image
-                                src={Member3}
-                                alt="miembro"
-                                className="member-icon member-3"
-                            />
-                            <Image
-                                src={Member4}
-                                alt="miembro"
-                                className="member-icon member-4"
-                            />
+                            )
+                        }
 
-                            <div className="member-icon other-members text-white">
-                                1
-                            </div>
-                        </div>
-             
+
+                    
+                    </div>
+
                     <div className="flex justify-between items-center mt-2 mt-5">
-                        <div className="border-2 border-green-500 rounded-xl px-2 text-md text-green-500 font-medium">
-                            <p>En proceso</p>
+                        <div className={clsx("border-2 rounded-xl px-2 text-md font-medium", {
+                            "border-green-500 text-green-500": status == "Completado",
+                            "border-[rgb(255,188,44)] text-[rgb(255,188,44)]": status == "En proceso",
+                            "border-[rgb(255,0,0)] text-[rgb(255,0,0)]": status == "Sin iniciar"
+                        })}>
+                            <p>{status}</p>
                         </div>
-                        <button className="bg-emerald-200 rounded-4xl p-2 enter-button-shadow">Ingresar</button>
-                        
+                        <button className="bg-emerald-200 rounded-2xl p-2 enter-button-shadow cursor-pointer" onClick={() => router.push(`/project/${id}`)}>Ingresar</button>
+
                     </div>
                 </div>
             </div>
