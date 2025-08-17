@@ -1,10 +1,11 @@
 import Image from "next/image"
+import '../styles/project-card.css'
 
 export function ProjectCard() {
     return(
         <>
-            <div className="">
-                <div className="border p-2  4xl:w-32">
+            <div className="project-card-shadow">
+                <div className="bg-white rounded-lg p-2">
                     <p className="text-2xl">Nombre</p>
                     <div className="h-86 relative">
                         <Image 
