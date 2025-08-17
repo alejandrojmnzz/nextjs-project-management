@@ -1,11 +1,17 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local"
+import { Montserrat } from "next/font/google"
 
 import "./globals.css";
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "../components/Navbar";
 
 const cocogooseFont = localFont({
-  src: './fonts/Cocogoose-Pro-Light-trial.ttf'
+  src: '../fonts/Cocogoose-Pro-Light-trial.ttf'
+})
+
+const montserratFont = Montserrat({
+    subsets: ["latin"],
+
 })
 
 const geistSans = Geist({
@@ -27,10 +33,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" >
       <body
-        className={cocogooseFont.className}
+        className={montserratFont.className}
       >
         <Navbar />
         {children}
+
+
+
+ 
       </body>
     </html>
   );
