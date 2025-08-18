@@ -76,7 +76,7 @@ export function SearchBar() {
                         Filtrar
                     </button>
                     {isDropdownVisible && (
-                        <ul className="absolute top-0 right-0 mt-2 w-52 rounded-lg bg-slate-400 mt-10">
+                        <ul className="absolute top-0 right-0 mt-2 w-52 rounded-lg bg-slate-400 mt-10 z-10">
                             <li className="flex gap-2 py-1 px-2 border-b mx-3 border-slate-700">
                                 <input
                                     id="completed"

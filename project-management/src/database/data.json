@@ -1,439 +1,1639 @@
 {
-    "projects": [
-        {
-            "id": 1,
-            "title": "Desarrollo de Aplicación Móvil",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=App",
-            "description": "Este proyecto se centra en la creación de una aplicación móvil multiplataforma (iOS y Android) que permitirá a los usuarios realizar un seguimiento detallado de sus hábitos diarios. La aplicación no solo facilitará el registro de actividades, sino que también ofrecerá visualizaciones de progreso personalizadas, establecerá metas diarias y enviará notificaciones inteligentes para recordar a los usuarios sus compromisos, fomentando la consistencia y la motivación.",
-            "tags": [
-                "Tecnología",
-                "Móvil",
-                "Salud",
-                "Aplicación"
-            ],
-            "members": [
-                {
-                    "name": "Carlos",
-                    "last_name": "Ruiz",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=CR"
-                },
-                {
-                    "name": "Sofía",
-                    "last_name": "López",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=SL"
-                }
-            ],
-            "status": "En proceso",
-            "tasks": [
-                {
-                    "description": "Diseñar la interfaz de usuario.",
-                    "priority": "Urgente",
-                    "status": "En proceso",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=SL"
-                },
-                {
-                    "description": "Implementar la base de datos.",
-                    "priority": "Crítico",
-                    "status": "Sin iniciar",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=CR"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "title": "Campaña de Marketing Digital",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Marketing",
-            "description": "El objetivo de esta campaña es un lanzamiento publicitario integral en las principales redes sociales (Instagram, Facebook, Twitter y LinkedIn) para aumentar significativamente el alcance y la visibilidad de la marca. La estrategia incluye la creación de contenido multimedia atractivo, la segmentación precisa del público objetivo, la programación de publicaciones estratégicas y un monitoreo continuo del rendimiento para optimizar los anuncios y maximizar el retorno de la inversión.",
-            "tags": [
-                "Marketing",
-                "Redes Sociales",
-                "Publicidad",
-                "Digital"
-            ],
-            "members": [
-                {
-                    "name": "Ana",
-                    "last_name": "García",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=AG"
-                }
-            ],
-            "status": "Completado",
-            "tasks": [
-                {
-                    "description": "Crear contenido para publicaciones.",
-                    "priority": "Largo plazo",
-                    "status": "Completado",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=AG"
-                },
-                {
-                    "description": "Programar las publicaciones.",
-                    "priority": "Próximo",
-                    "status": "Completado",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=AG"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "title": "Rediseño de Página Web",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Web",
-            "description": "Este proyecto de rediseño busca revitalizar por completo la interfaz de usuario y mejorar la experiencia de navegación del sitio web actual. El objetivo es crear un diseño moderno y minimalista, optimizar la arquitectura de la información para facilitar el acceso a la información clave y asegurar que el sitio sea completamente responsivo en todos los dispositivos. Con esto, se espera no solo atraer a más visitantes, sino también aumentar la retención y las conversiones.",
-            "tags": [
-                "Página web",
-                "Diseño",
-                "Desarrollo",
-                "UI/UX"
-            ],
-            "members": [
-                {
-                    "name": "Juan",
-                    "last_name": "Pérez",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JP"
-                },
-                {
-                    "name": "Marta",
-                    "last_name": "Díaz",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=MD"
-                },
-                {
-                    "name": "Luis",
-                    "last_name": "Hernández",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=LH"
-                }
-            ],
-            "status": "En proceso",
-            "tasks": [
-                {
-                    "description": "Diseñar la maqueta de la página de inicio.",
-                    "priority": "Crítico",
-                    "status": "En proceso",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=MD"
-                },
-                {
-                    "description": "Implementar la nueva barra de navegación.",
-                    "priority": "Urgente",
-                    "status": "En proceso",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=LH"
-                },
-                {
-                    "description": "Revisar los textos y contenidos.",
-                    "priority": "Próximo",
-                    "status": "Sin iniciar",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=JP"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "title": "Investigación de Mercado",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Investigación",
-            "description": "Esta investigación de mercado exhaustiva tiene como objetivo principal identificar y analizar nuevas oportunidades de negocio, así como las tendencias emergentes en el comportamiento del consumidor. El proceso incluirá la recopilación de datos a través de encuestas y entrevistas a profundidad, un análisis comparativo de la competencia y la elaboración de un informe detallado que sirva como base para la toma de decisiones estratégicas de la empresa.",
-            "tags": [
-                "Negocio",
-                "Estudio",
-                "Datos"
-            ],
-            "members": [
-                {
-                    "name": "Pedro",
-                    "last_name": "Gómez",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=PG"
-                }
-            ],
-            "status": "Sin iniciar",
-            "tasks": [
-                {
-                    "description": "Recopilar datos de encuestas.",
-                    "priority": "Urgente",
-                    "status": "Sin iniciar",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=PG"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "title": "Desarrollo de una API",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=API",
-            "description": "El propósito de este proyecto es diseñar y construir una interfaz de programación de aplicaciones (API) robusta y segura. Esta API servirá como el puente de comunicación entre la aplicación móvil y la base de datos central, facilitando un intercambio de datos eficiente. Se implementarán endpoints RESTful para manejar la creación, lectura, actualización y eliminación de datos, asegurando una interacción fluida y escalable entre el frontend y el backend.",
-            "tags": [
-                "Tecnología",
-                "Backend",
-                "API",
-                "Desarrollo"
-            ],
-            "members": [
-                {
-                    "name": "Roberto",
-                    "last_name": "Gutiérrez",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=RG"
-                },
-                {
-                    "name": "Andrea",
-                    "last_name": "Vázquez",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=AV"
-                }
-            ],
-            "status": "En proceso",
-            "tasks": [
-                {
-                    "description": "Diseñar los endpoints.",
-                    "priority": "Crítico",
-                    "status": "En proceso",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=RG"
-                },
-                {
-                    "description": "Escribir la documentación.",
-                    "priority": "Próximo",
-                    "status": "Sin iniciar",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=AV"
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "title": "Producción de Video Corporativo",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Video",
-            "description": "Este proyecto abarca todas las fases de producción de un video promocional de alta calidad, desde la concepción de la idea hasta el producto final. El video será diseñado para ser un elemento clave en el sitio web y en las campañas de redes sociales, con el fin de comunicar la misión, visión y valores de la empresa de manera visualmente atractiva y emotiva. Las tareas incluyen la escritura de un guión cautivador, la filmación profesional y una postproducción minuciosa con edición, efectos y banda sonora.",
-            "tags": [
-                "Marketing",
-                "Video",
-                "Contenido",
-                "Corporativo"
-            ],
-            "members": [
-                {
-                    "name": "Gabriela",
-                    "last_name": "Torres",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=GT"
-                },
-                {
-                    "name": "Javier",
-                    "last_name": "Molina",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JM"
-                },
-                {
-                    "name": "Javier",
-                    "last_name": "Molina",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JM"
-                },
-                {
-                    "name": "Javier",
-                    "last_name": "Molina",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JM"
-                },
-                {
-                    "name": "Javier",
-                    "last_name": "Molina",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JM"
-                }
-            ],
-            "status": "En proceso",
-            "tasks": [
-                {
-                    "description": "Escribir el guión.",
-                    "priority": "Próximo",
-                    "status": "En proceso",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=GT"
-                },
-                {
-                    "description": "Grabar las escenas.",
-                    "priority": "Urgente",
-                    "status": "En proceso",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=JM"
-                }
-            ]
-        },
-        {
-            "id": 7,
-            "title": "Optimización para SEO",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=SEO",
-            "description": "Este proyecto tiene como fin mejorar el posicionamiento orgánico del sitio web en los motores de búsqueda como Google. La estrategia se basa en una auditoría SEO completa para identificar áreas de mejora, la optimización de palabras clave en el contenido, la revisión y mejora de la velocidad de carga del sitio, y la creación de una estrategia de link building para aumentar la autoridad del dominio, con el objetivo de atraer tráfico cualificado y aumentar la visibilidad en línea.",
-            "tags": [
-                "SEO",
-                "Web",
-                "Marketing"
-            ],
-            "members": [
-                {
-                    "name": "Elena",
-                    "last_name": "Moreno",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=EM"
-                }
-            ],
-            "status": "Sin iniciar",
-            "tasks": [
-                {
-                    "description": "Análisis de palabras clave.",
-                    "priority": "Largo plazo",
-                    "status": "Sin iniciar",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=EM"
-                }
-            ]
-        },
-        {
-            "id": 8,
-            "title": "Lanzamiento de Producto",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Producto",
-            "description": "Este proyecto de lanzamiento de producto es una iniciativa estratégica para la introducción exitosa de una nueva oferta en el mercado. El plan de acción incluye la definición de una estrategia de precios competitiva, la creación de un plan de marketing de prelanzamiento, la preparación de materiales de ventas y la organización de eventos de lanzamiento. El objetivo es generar expectación, asegurar una adopción temprana por parte del público objetivo y establecer el producto como un líder en su categoría.",
-            "tags": [
-                "Estrategia",
-                "Lanzamiento",
-                "Negocio"
-            ],
-            "members": [
-                {
-                    "name": "Jorge",
-                    "last_name": "Ramírez",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JR"
-                }
-            ],
-            "status": "Sin iniciar",
-            "tasks": [
-                {
-                    "description": "Estrategia de precios.",
-                    "priority": "Crítico",
-                    "status": "Sin iniciar",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=JR"
-                }
-            ]
-        },
-        {
-            "id": 9,
-            "title": "Desarrollo de E-commerce",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=E-commerce",
-            "description": "La meta de este proyecto es construir una plataforma de comercio electrónico funcional y fácil de usar desde cero. La tienda en línea incluirá un catálogo de productos completo, un sistema de carrito de compras intuitivo y múltiples opciones de pasarela de pago seguras. Se integrarán funcionalidades como la gestión de inventario, el seguimiento de pedidos y la gestión de clientes, lo que permitirá a la empresa expandir su canal de ventas y llegar a una audiencia global.",
-            "tags": [
-                "Página web",
-                "Ventas",
-                "E-commerce",
-                "Desarrollo"
-            ],
-            "members": [
-                {
-                    "name": "Laura",
-                    "last_name": "Sánchez",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=LS"
-                },
-                {
-                    "name": "Felipe",
-                    "last_name": "Castro",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=FC"
-                }
-            ],
-            "status": "En proceso",
-            "tasks": [
-                {
-                    "description": "Implementar carrito de compras.",
-                    "priority": "Urgente",
-                    "status": "En proceso",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=FC"
-                },
-                {
-                    "description": "Configurar pasarela de pago.",
-                    "priority": "Crítico",
-                    "status": "En proceso",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=LS"
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "title": "Migración de Servidor",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Servidor",
-            "description": "Este proyecto técnico consiste en la migración completa de todos los datos, aplicaciones y servicios del servidor actual a una nueva infraestructura. La migración se realizará con el mínimo tiempo de inactividad posible, garantizando la integridad de los datos y la continuidad del servicio. El nuevo servidor, más potente y escalable, permitirá un mejor rendimiento y una mayor capacidad para futuras expansiones.",
-            "tags": [
-                "Tecnología",
-                "Servidor",
-                "Infraestructura",
-                "Migración"
-            ],
-            "members": [
-                {
-                    "name": "Daniel",
-                    "last_name": "López",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=DL"
-                }
-            ],
-            "status": "Completado",
-            "tasks": [
-                {
-                    "description": "Realizar copia de seguridad de la base de datos.",
-                    "priority": "Urgente",
-                    "status": "Completado",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=DL"
-                }
-            ]
-        },
-        {
-            "id": 11,
-            "title": "Capacitación de Empleados",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Capacitación",
-            "description": "Este proyecto está diseñado para crear y ofrecer un programa de capacitación integral para todo el personal, con el objetivo de asegurar que dominen el uso de la nueva plataforma de gestión de proyectos. El programa incluirá la elaboración de materiales didácticos, la programación de talleres interactivos y sesiones de formación individualizadas, y un seguimiento para evaluar la comprensión y la aplicación de los conocimientos adquiridos, facilitando una transición fluida y exitosa.",
-            "tags": [
-                "Recursos Humanos",
-                "Formación",
-                "Capacitación"
-            ],
-            "members": [
-                {
-                    "name": "Natalia",
-                    "last_name": "Morales",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=NM"
-                },
-                {
-                    "name": "Esteban",
-                    "last_name": "Paredes",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=EP"
-                }
-            ],
-            "status": "Sin iniciar",
-            "tasks": [
-                {
-                    "description": "Diseñar el material didáctico.",
-                    "priority": "Próximo",
-                    "status": "Sin iniciar",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=NM"
-                },
-                {
-                    "description": "Programar las sesiones.",
-                    "priority": "Largo plazo",
-                    "status": "Sin iniciar",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=EP"
-                }
-            ]
-        },
-        {
-            "id": 12,
-            "title": "Desarrollo de un Chatbot",
-            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Chatbot",
-            "description": "El objetivo de este proyecto es el desarrollo de un chatbot impulsado por inteligencia artificial. Este asistente virtual estará integrado en el sitio web de la empresa para proporcionar soporte instantáneo a los clientes, responder a preguntas frecuentes, ayudar con la navegación y, en última instancia, mejorar la experiencia del usuario. El proyecto incluye la definición de flujos conversacionales, el entrenamiento del modelo de lenguaje y la implementación segura y escalable del chatbot.",
-            "tags": [
-                "Tecnología",
-                "IA",
-                "Automatización"
-            ],
-            "members": [
-                {
-                    "name": "Pablo",
-                    "last_name": "Romero",
-                    "image": "https://placehold.co/50x50/334155/f8fafc?text=PR"
-                }
-            ],
-            "status": "En proceso",
-            "tasks": [
-                {
-                    "description": "Entrenar al modelo de lenguaje.",
-                    "priority": "Crítico",
-                    "status": "En proceso",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=PR"
-                },
-                {
-                    "description": "Integrar el chatbot en el sitio web.",
-                    "priority": "Urgente",
-                    "status": "Sin iniciar",
-                    "member": "https://placehold.co/50x50/334155/f8fafc?text=PR"
-                }
-            ]
-        }
-    ]
+    "projects": 
+    [
+    {
+        "id": 1,
+        "title": "Desarrollo de Aplicación Móvil",
+        "image": "https://images.griddo.universitatcarlemany.com/como-la-tecnologia-impulsa-el-desarrollo-y-viceversa",
+        "description": "Este proyecto se centra en la creación de una aplicación móvil multiplataforma (iOS y Android) que permitirá a los usuarios realizar un seguimiento detallado de sus hábitos diarios. La aplicación no solo facilitará el registro de actividades, sino que también ofrecerá visualizaciones de progreso personalizadas, establecerá metas diarias y enviará notificaciones inteligentes para recordar a los usuarios sus compromisos, fomentando la consistencia y la motivación.",
+        "tags": ["Tecnología", "Móvil", "Salud", "Aplicación", "Frontend", "Backend", "UX/UI", "Desarrollo", "Software"],
+        "members": [
+            {
+                "name": "Carlos",
+                "last_name": "Ruiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Sofía",
+                "last_name": "López",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "David",
+                "last_name": "Vargas",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Elena",
+                "last_name": "Gómez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Fernando",
+                "last_name": "Díaz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Laura",
+                "last_name": "Sanz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Pedro",
+                "last_name": "Gil",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Mónica",
+                "last_name": "Mora",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "En proceso",
+        "tasks": [
+            {
+                "description": "Diseñar la interfaz de usuario.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar la base de datos.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar el entorno de desarrollo.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Desarrollar la pantalla de inicio de sesión.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear la lógica de seguimiento de hábitos.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Diseñar las visualizaciones de progreso.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar notificaciones push.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar la autenticación de usuarios.",
+                "priority": "Crítico",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar pruebas de usabilidad (A/B testing).",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Integrar la API de la base de datos.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Desarrollar la funcionalidad de 'establecer metas'.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Optimizar el rendimiento de la aplicación.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Preparar la documentación técnica.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Generar iconos y assets gráficos.",
+                "priority": "Próximo",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Campaña de Marketing Digital",
+        "image": "https://fotos.perfil.com/2023/09/05/inteligencia-artificial-cuales-son-las-regulaciones-que-se-impulsan-en-el-mundo-1646974.jpg",
+        "description": "El objetivo de esta campaña es un lanzamiento publicitario integral en las principales redes sociales (Instagram, Facebook, Twitter y LinkedIn) para aumentar significativamente el alcance y la visibilidad de la marca. La estrategia incluye la creación de contenido multimedia atractivo, la segmentación precisa del público objetivo, la programación de publicaciones estratégicas y un monitoreo continuo del rendimiento para optimizar los anuncios y maximizar el retorno de la inversión.",
+        "tags": ["Marketing", "Redes Sociales", "Publicidad", "Digital", "Contenido", "SEO", "Estrategia", "Analítica", "Campaña"],
+        "members": [
+            {
+                "name": "Ana",
+                "last_name": "García",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Beatriz",
+                "last_name": "Pérez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Carmen",
+                "last_name": "López",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Esther",
+                "last_name": "Ruiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Gabriel",
+                "last_name": "Morales",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Irene",
+                "last_name": "Santos",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Julio",
+                "last_name": "Ramos",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Paula",
+                "last_name": "Vázquez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "Completado",
+        "tasks": [
+            {
+                "description": "Crear contenido para publicaciones.",
+                "priority": "Largo plazo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Programar las publicaciones.",
+                "priority": "Próximo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Definir los objetivos de la campaña.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Identificar al público objetivo.",
+                "priority": "Urgente",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Estrategia de segmentación de anuncios.",
+                "priority": "Urgente",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear copys para los anuncios.",
+                "priority": "Próximo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Diseñar las creatividades visuales.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar las campañas en Ads Manager.",
+                "priority": "Urgente",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Monitorear el rendimiento diario.",
+                "priority": "Próximo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar ajustes en los anuncios.",
+                "priority": "Largo plazo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Generar un informe de resultados final.",
+                "priority": "Largo plazo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Análisis del retorno de la inversión (ROI).",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Planificar la próxima campaña.",
+                "priority": "Largo plazo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Presentar los resultados al equipo.",
+                "priority": "Próximo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Rediseño de Página Web",
+        "image": "https://t4.ftcdn.net/jpg/13/45/12/29/360_F_1345122973_i2laixTUeGSNNdQu7eNhpIdORoVUpTuC.jpg",
+        "description": "Este proyecto de rediseño busca revitalizar por completo la interfaz de usuario y mejorar la experiencia de navegación del sitio web actual. El objetivo es crear un diseño moderno y minimalista, optimizar la arquitectura de la información para facilitar el acceso a la información clave y asegurar que el sitio sea completamente responsivo en todos los dispositivos. Con esto, se espera no solo atraer a más visitantes, sino también aumentar la retención y las conversiones.",
+        "tags": ["Página web", "Diseño", "Desarrollo", "UI/UX", "Frontend", "Responsive", "SEO", "Usabilidad", "Marketing"],
+        "members": [
+            {
+                "name": "Juan",
+                "last_name": "Pérez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Marta",
+                "last_name": "Díaz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Luis",
+                "last_name": "Hernández",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Rosa",
+                "last_name": "Gómez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Sergio",
+                "last_name": "Muñoz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Teresa",
+                "last_name": "Pérez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Víctor",
+                "last_name": "Sánchez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Yolanda",
+                "last_name": "García",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "En proceso",
+        "tasks": [
+            {
+                "description": "Diseñar la maqueta de la página de inicio.",
+                "priority": "Crítico",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar la nueva barra de navegación.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Revisar los textos y contenidos.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Análisis de la arquitectura de la información.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear los wireframes de las páginas clave.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Desarrollar el frontend del sitio.",
+                "priority": "Crítico",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Optimizar las imágenes y el rendimiento.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar pruebas de compatibilidad en navegadores.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar el nuevo diseño en el backend.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar herramientas de analítica web.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Auditoría SEO del contenido existente.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear un mapa de sitio (sitemap) actualizado.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Diseñar los banners y elementos gráficos.",
+                "priority": "Próximo",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar pruebas de carga y velocidad.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Investigación de Mercado",
+        "image": "https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2017/11/technology-banner.jpg",
+        "description": "Esta investigación de mercado exhaustiva tiene como objetivo principal identificar y analizar nuevas oportunidades de negocio, así como las tendencias emergentes en el comportamiento del consumidor. El proceso incluirá la recopilación de datos a través de encuestas y entrevistas a profundidad, un análisis comparativo de la competencia y la elaboración de un informe detallado que sirva como base para la toma de decisiones estratégicas de la empresa.",
+        "tags": ["Negocio", "Estudio", "Datos", "Estrategia", "Análisis", "Competencia", "Consumidor", "Mercado", "Informe"],
+        "members": [
+            {
+                "name": "Pedro",
+                "last_name": "Gómez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Clara",
+                "last_name": "Jiménez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Ricardo",
+                "last_name": "Soto",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Silvia",
+                "last_name": "Ortega",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Martín",
+                "last_name": "Castro",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Nerea",
+                "last_name": "García",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Diego",
+                "last_name": "Ruiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Valentina",
+                "last_name": "Mena",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "Sin iniciar",
+        "tasks": [
+            {
+                "description": "Recopilar datos de encuestas.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Definir los objetivos de la investigación.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Diseñar el cuestionario para las encuestas.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Seleccionar la muestra de participantes.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar entrevistas a profundidad.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Analizar los datos cualitativos de las entrevistas.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar análisis FODA de la competencia.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Recopilar información de tendencias del sector.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Estructurar el informe final.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Elaborar gráficos y visualizaciones de datos.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Revisar y editar el informe.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Presentar los hallazgos a la dirección.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Identificar oportunidades de mercado.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear un resumen ejecutivo.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Desarrollo de una API",
+        "image": "https://www.matillion.com/uploads/cards/Blog-API.png",
+        "description": "El propósito de este proyecto es diseñar y construir una interfaz de programación de aplicaciones (API) robusta y segura. Esta API servirá como el puente de comunicación entre la aplicación móvil y la base de datos central, facilitando un intercambio de datos eficiente. Se implementarán endpoints RESTful para manejar la creación, lectura, actualización y eliminación de datos, asegurando una interacción fluida y escalable entre el frontend y el backend.",
+        "tags": ["Tecnología", "Backend", "API", "Desarrollo", "RESTful", "Seguridad", "Servidor", "Base de datos", "Software"],
+        "members": [
+            {
+                "name": "Roberto",
+                "last_name": "Gutiérrez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Andrea",
+                "last_name": "Vázquez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Félix",
+                "last_name": "Castro",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Gabriela",
+                "last_name": "Vega",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Hugo",
+                "last_name": "Méndez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Isabel",
+                "last_name": "Navarro",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Javier",
+                "last_name": "Ortiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Karla",
+                "last_name": "Pérez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "En proceso",
+        "tasks": [
+            {
+                "description": "Diseñar los endpoints.",
+                "priority": "Crítico",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Escribir la documentación.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar el entorno del servidor.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Desarrollar la lógica de autenticación.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar la capa de persistencia de datos.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear endpoints para la gestión de usuarios.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar medidas de seguridad (JWT, OAuth).",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar pruebas unitarias.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar el despliegue de la API.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Optimizar el rendimiento de las consultas.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Monitorear los logs de la API.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear un plan de versionado de la API.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Diseñar la estructura de datos (schemas).",
+                "priority": "Crítico",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Revisar el código con el equipo.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Producción de Video Corporativo",
+        "image": "https://blog.interdominios.com/wp-content/2008/C%C3%B3mo-hacer-un-v%C3%ADdeo-profesional-para-compartir-en-redes-sociales-1280x720.jpg",
+        "description": "Este proyecto abarca todas las fases de producción de un video promocional de alta calidad, desde la concepción de la idea hasta el producto final. El video será diseñado para ser un elemento clave en el sitio web y en las campañas de redes sociales, con el fin de comunicar la misión, visión y valores de la empresa de manera visualmente atractiva y emotiva. Las tareas incluyen la escritura de un guión cautivador, la filmación profesional y una postproducción minuciosa con edición, efectos y banda sonora.",
+        "tags": ["Marketing", "Video", "Contenido", "Corporativo", "Producción", "Guion", "Edición", "Promoción", "Filmación"],
+        "members": [
+            {
+                "name": "Gabriela",
+                "last_name": "Torres",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Javier",
+                "last_name": "Molina",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Alicia",
+                "last_name": "Vega",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Borja",
+                "last_name": "Ruiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Diana",
+                "last_name": "Soto",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Esteban",
+                "last_name": "López",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Mario",
+                "last_name": "Pérez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Patricia",
+                "last_name": "Díaz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "En proceso",
+        "tasks": [
+            {
+                "description": "Escribir el guión.",
+                "priority": "Próximo",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Grabar las escenas.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Definir el concepto y el mensaje clave.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Preparar el storyboard.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Buscar locaciones para la filmación.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar la postproducción y edición del video.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Añadir efectos visuales y gráficos.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Mezclar el audio y la banda sonora.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear versiones del video para distintas plataformas.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Planificar la estrategia de lanzamiento del video.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Obtener los permisos necesarios para la filmación.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Revisar el video final con el equipo de marketing.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Diseñar la miniatura del video.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Subir el video a las plataformas (YouTube, Vimeo).",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Optimización para SEO",
+        "image": "https://gonzalonavarro.es/wp-content/uploads/2016/03/seo-imagenes.jpg",
+        "description": "Este proyecto tiene como fin mejorar el posicionamiento orgánico del sitio web en los motores de búsqueda como Google. La estrategia se basa en una auditoría SEO completa para identificar áreas de mejora, la optimización de palabras clave en el contenido, la revisión y mejora de la velocidad de carga del sitio, y la creación de una estrategia de link building para aumentar la autoridad del dominio, con el objetivo de atraer tráfico cualificado y aumentar la visibilidad en línea.",
+        "tags": ["SEO", "Web", "Marketing", "Contenido", "Analítica", "Posicionamiento", "Keywords", "Link Building", "Usabilidad"],
+        "members": [
+            {
+                "name": "Elena",
+                "last_name": "Moreno",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Hugo",
+                "last_name": "Díaz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Iñaki",
+                "last_name": "García",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Julia",
+                "last_name": "Ruiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Kevin",
+                "last_name": "Sanz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Lidia",
+                "last_name": "Castro",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Manuel",
+                "last_name": "Díaz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Nuria",
+                "last_name": "Ortega",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "Sin iniciar",
+        "tasks": [
+            {
+                "description": "Análisis de palabras clave.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar una auditoría técnica de la web.",
+                "priority": "Crítico",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Optimizar los títulos y las meta-descripciones.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Revisar y mejorar el enlazado interno.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear un plan de contenidos.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Estrategia de link building para conseguir enlaces externos.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Optimizar la velocidad de carga de la web.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Analizar los datos de tráfico con Google Analytics.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Revisar los informes de Google Search Console.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Mejorar la usabilidad móvil (Mobile First).",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Actualizar el sitemap y el archivo robots.txt.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar un estudio de la competencia.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Optimizar las etiquetas H1, H2, etc.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Monitorizar las clasificaciones de palabras clave.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Lanzamiento de Producto",
+        "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309648.jpg",
+        "description": "Este proyecto de lanzamiento de producto es una iniciativa estratégica para la introducción exitosa de una nueva oferta en el mercado. El plan de acción incluye la definición de una estrategia de precios competitiva, la creación de un plan de marketing de prelanzamiento, la preparación de materiales de ventas y la organización de eventos de lanzamiento. El objetivo es generar expectación, asegurar una adopción temprana por parte del público objetivo y establecer el producto como un líder en su categoría.",
+        "tags": ["Estrategia", "Lanzamiento", "Negocio", "Producto", "Marketing", "Ventas", "Campaña", "Planificación", "Comunicación"],
+        "members": [
+            {
+                "name": "Jorge",
+                "last_name": "Ramírez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Ana",
+                "last_name": "Gómez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Borja",
+                "last_name": "Sánchez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Carla",
+                "last_name": "Díaz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "David",
+                "last_name": "García",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Elisa",
+                "last_name": "López",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Francisco",
+                "last_name": "Giménez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Gema",
+                "last_name": "Morales",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "Sin iniciar",
+        "tasks": [
+            {
+                "description": "Estrategia de precios.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Planificar el prelanzamiento.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Definir el mensaje clave del producto.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Desarrollar los materiales de marketing (folletos, banners).",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear un plan de comunicación para los medios.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Organizar el evento de lanzamiento.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Capacitar al equipo de ventas sobre el nuevo producto.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar las plataformas de venta.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Analizar la competencia y el mercado.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Definir los indicadores clave de rendimiento (KPIs).",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear el kit de prensa.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Planificar la publicidad de pago.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear el contenido para redes sociales.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Programar las publicaciones en el blog.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Desarrollo de E-commerce",
+        "image": "https://iep.edu.es/wp-content/uploads/2018/08/que-es-ecommerce-1200x900.webp",
+        "description": "La meta de este proyecto es construir una plataforma de comercio electrónico funcional y fácil de usar desde cero. La tienda en línea incluirá un catálogo de productos completo, un sistema de carrito de compras intuitivo y múltiples opciones de pasarela de pago seguras. Se integrarán funcionalidades como la gestión de inventario, el seguimiento de pedidos y la gestión de clientes, lo que permitirá a la empresa expandir su canal de ventas y llegar a una audiencia global.",
+        "tags": ["Página web", "Ventas", "E-commerce", "Desarrollo", "Frontend", "Backend", "Pago", "UI/UX", "Logística"],
+        "members": [
+            {
+                "name": "Laura",
+                "last_name": "Sánchez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Felipe",
+                "last_name": "Castro",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Guillermo",
+                "last_name": "Ortiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Héctor",
+                "last_name": "Pérez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Inés",
+                "last_name": "Muñoz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Javier",
+                "last_name": "Vargas",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Luz",
+                "last_name": "Díaz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Miguel",
+                "last_name": "Ruiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "En proceso",
+        "tasks": [
+            {
+                "description": "Implementar carrito de compras.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar pasarela de pago.",
+                "priority": "Crítico",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Diseñar la interfaz de usuario.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Desarrollar el catálogo de productos.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar la gestión de inventario.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar el seguimiento de pedidos.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Desarrollar la página de inicio.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar la sección de reseñas de productos.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar pruebas de seguridad.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar la integración con servicios de envío.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Optimizar el proceso de checkout.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear las políticas de privacidad y términos de servicio.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Desarrollar la funcionalidad de gestión de clientes.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Planificar la estrategia de marketing post-lanzamiento.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Migración de Servidor",
+        "image": "https://mikeelectronica.com/cdn/shop/articles/B-MK_02_2121x.progressive.jpg?v=1607535378",
+        "description": "Este proyecto técnico consiste en la migración completa de todos los datos, aplicaciones y servicios del servidor actual a una nueva infraestructura. La migración se realizará con el mínimo tiempo de inactividad posible, garantizando la integridad de los datos y la continuidad del servicio. El nuevo servidor, más potente y escalable, permitirá un mejor rendimiento y una mayor capacidad para futuras expansiones.",
+        "tags": ["Tecnología", "Servidor", "Infraestructura", "Migración", "Backend", "Datos", "DevOps", "Cloud", "Sistemas"],
+        "members": [
+            {
+                "name": "Daniel",
+                "last_name": "López",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Emilio",
+                "last_name": "Fernández",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Fernando",
+                "last_name": "García",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Gloria",
+                "last_name": "Hernández",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Hugo",
+                "last_name": "Ibarrondo",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Inés",
+                "last_name": "Jiménez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Juan",
+                "last_name": "López",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Lorena",
+                "last_name": "Martínez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "Completado",
+        "tasks": [
+            {
+                "description": "Realizar copia de seguridad de la base de datos.",
+                "priority": "Urgente",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Evaluar la nueva infraestructura.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Planificar la migración.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar el nuevo servidor.",
+                "priority": "Urgente",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Probar la conectividad.",
+                "priority": "Próximo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Migrar los datos.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Migrar las aplicaciones.",
+                "priority": "Urgente",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar pruebas de rendimiento en el nuevo entorno.",
+                "priority": "Largo plazo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Actualizar los registros DNS.",
+                "priority": "Próximo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar monitoreo y alertas.",
+                "priority": "Urgente",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Establecer un plan de reversión.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Comunicar la migración a los usuarios.",
+                "priority": "Largo plazo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Desactivar el servidor antiguo.",
+                "priority": "Urgente",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear un informe post-migración.",
+                "priority": "Próximo",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Capacitación de Empleados",
+        "image": "https://media.istockphoto.com/id/910099026/es/vector/industrial-los-trabajadores.jpg?s=612x612&w=0&k=20&c=Xv_Pa2rL2EXrtK-5tq2AYFBrRboaue_1ZMKaIN81WYs=",
+        "description": "Este proyecto está diseñado para crear y ofrecer un programa de capacitación integral para todo el personal, con el objetivo de asegurar que dominen el uso de la nueva plataforma de gestión de proyectos. El programa incluirá la elaboración de materiales didácticos, la programación de talleres interactivos y sesiones de formación individualizadas, y un seguimiento para evaluar la comprensión y la aplicación de los conocimientos adquiridos, facilitando una transición fluida y exitosa.",
+        "tags": ["Recursos Humanos", "Formación", "Capacitación", "Desarrollo", "Habilidades", "RRHH", "Talleres", "Material didáctico", "Planificación"],
+        "members": [
+            {
+                "name": "Natalia",
+                "last_name": "Morales",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Esteban",
+                "last_name": "Paredes",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Ana",
+                "last_name": "Ruiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Beatriz",
+                "last_name": "Díaz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "César",
+                "last_name": "Gómez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Diana",
+                "last_name": "Sanz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Eduardo",
+                "last_name": "López",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Fabiola",
+                "last_name": "Ortega",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "Sin iniciar",
+        "tasks": [
+            {
+                "description": "Diseñar el material didáctico.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Programar las sesiones.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Identificar las necesidades de capacitación.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear el cronograma de talleres.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Elaborar las presentaciones.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Preparar las actividades prácticas.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Comunicar el programa a los empleados.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar la primera sesión de capacitación.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Evaluar la efectividad de la capacitación.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Recopilar feedback de los participantes.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear una guía de referencia rápida.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Ofrecer soporte post-capacitación.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Actualizar los materiales de forma periódica.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Medir el impacto en la productividad.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Desarrollo de un Chatbot",
+        "image": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2025/03/marquee-agentforce-ai-chatbot.png?w=1024",
+        "description": "El objetivo de este proyecto es el desarrollo de un chatbot impulsado por inteligencia artificial. Este asistente virtual estará integrado en el sitio web de la empresa para proporcionar soporte instantáneo a los clientes, responder a preguntas frecuentes, ayudar con la navegación y, en última instancia, mejorar la experiencia del usuario. El proyecto incluye la definición de flujos conversacionales, el entrenamiento del modelo de lenguaje y la implementación segura y escalable del chatbot.",
+        "tags": ["Tecnología", "IA", "Automatización", "Chatbot", "Soporte", "Atención al cliente", "Desarrollo", "IA", "Experiencia de usuario"],
+        "members": [
+            {
+                "name": "Pablo",
+                "last_name": "Romero",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Quique",
+                "last_name": "Sánchez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Raquel",
+                "last_name": "Torres",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Sara",
+                "last_name": "Vázquez",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Tomás",
+                "last_name": "García",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Úrsula",
+                "last_name": "Ruiz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Violeta",
+                "last_name": "López",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            },
+            {
+                "name": "Xavier",
+                "last_name": "Muñoz",
+                "image": "https://megafotoexpress.com/cdn/shop/files/Foto_documento_2.jpg?v=1747943935"
+            }
+        ],
+        "status": "En proceso",
+        "tasks": [
+            {
+                "description": "Entrenar al modelo de lenguaje.",
+                "priority": "Crítico",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Integrar el chatbot en el sitio web.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Definir los flujos conversacionales.",
+                "priority": "Crítico",
+                "status": "Completado",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Recopilar preguntas frecuentes y respuestas.",
+                "priority": "Urgente",
+                "status": "En proceso",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Diseñar la interfaz de chat (widget).",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar la conexión con la API de IA.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Realizar pruebas de integración.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Configurar la gestión de intenciones y entidades.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Entrenar al modelo con datos adicionales.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear un mecanismo de 'fallback' a agente humano.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Implementar análisis de sentimiento.",
+                "priority": "Urgente",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Revisar los logs de conversación para mejoras.",
+                "priority": "Largo plazo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Optimizar el rendimiento y la velocidad de respuesta.",
+                "priority": "Crítico",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            },
+            {
+                "description": "Crear un plan de despliegue gradual.",
+                "priority": "Próximo",
+                "status": "Sin iniciar",
+                "member": "https://media.v2.siweb.es/uploaded_thumb_big/50539061f56935f748726281f52004db/jurica_koletic_7yvzyzeitc8_unsplash_copia.jpg"
+            }
+        ]
+    }
+]
+
+    
 }

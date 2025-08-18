@@ -6,13 +6,24 @@ import { Tag } from "./Tag"
 import clsx from "clsx"
 
 export function ProjectCard({ id, title, image, description, tags, members, status }) {
-    
+
     const modal = 0
     const router = useRouter()
 
+    function fixDescriptionLength(description) {
+        let fixedDescription = ""
+        const splittedDescription = description.split("")
+        splittedDescription.map((item, index) => {
+            if (index <= 85) {
+            fixedDescription = fixedDescription + item
+            }
+        })
+        return fixedDescription
+    }
+
     return (
         <>
-            <div className={clsx("project-card-shadow rounded-lg mt-2 relative", {"-z-1": modal})}>
+            <div className={clsx("project-card-shadow rounded-lg mt-2 relative", { "-z-1": modal })}>
                 <div className="bg-white rounded-md p-2">
                     <div className="flex justify-between items-start">
                         <p className="text-2xl">{title}</p>
@@ -30,7 +41,11 @@ export function ProjectCard({ id, title, image, description, tags, members, stat
                         />
                     </div>
                     <div className="mt-2 text-[1rem]">
-                        <p>{description}</p>
+                        <p>
+                            {description.length > 85
+                                ? fixDescriptionLength(description) + "..."
+                                : description}
+                        </p>
                     </div>
                     <div className="flex">
 
@@ -77,7 +92,7 @@ export function ProjectCard({ id, title, image, description, tags, members, stat
                         }
 
 
-                    
+
                     </div>
 
                     <div className="flex justify-between items-center mt-2 mt-5">

@@ -30,9 +30,9 @@ export function ProjectsGraph() {
     const options = {
         scales: {
             y: {
-                beginAtZero: false, // Desactiva el inicio en cero si no es necesario
-                min: 0, // Establece el valor mínimo del eje y
-                max: 100 // Establece el valor máximo del eje y
+                beginAtZero: false, 
+                min: 0, 
+                max: 14
             }
         }
     }
