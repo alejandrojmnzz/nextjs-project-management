@@ -8,7 +8,7 @@ Primero hay que ubicarse en el directorio del proyecto: `cd project-management`
 
 Luego instalar todas las dependencias con `npm i`
 
-Y correr el pryecto con `npm run dev`
+Y correr el pryecto con `npm run build` y luego  `npm start`
 
 **Tecnologías**
 
