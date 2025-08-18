@@ -5,14 +5,14 @@ import { useRouter } from "next/navigation"
 import { Tag } from "./Tag"
 import clsx from "clsx"
 
-
 export function ProjectCard({ id, title, image, description, tags, members, status }) {
-
+    
+    const modal = 0
     const router = useRouter()
 
     return (
         <>
-            <div className="project-card-shadow rounded-lg mt-2">
+            <div className={clsx("project-card-shadow rounded-lg mt-2 relative", {"-z-1": modal})}>
                 <div className="bg-white rounded-md p-2">
                     <div className="flex justify-between items-start">
                         <p className="text-2xl">{title}</p>
@@ -26,7 +26,6 @@ export function ProjectCard({ id, title, image, description, tags, members, stat
                         <Image
                             fill
                             style={{ objectFit: 'cover' }}
-
                             src={image}
                         />
                     </div>

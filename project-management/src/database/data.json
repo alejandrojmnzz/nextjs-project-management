@@ -2,145 +2,436 @@
     "projects": [
         {
             "id": 1,
-            "title": "Título del proyecto",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
-            "tags": ["General", "Animales", "Página web"],
-            "members": [
-                {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                }
-                
+            "title": "Desarrollo de Aplicación Móvil",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=App",
+            "description": "Este proyecto se centra en la creación de una aplicación móvil multiplataforma (iOS y Android) que permitirá a los usuarios realizar un seguimiento detallado de sus hábitos diarios. La aplicación no solo facilitará el registro de actividades, sino que también ofrecerá visualizaciones de progreso personalizadas, establecerá metas diarias y enviará notificaciones inteligentes para recordar a los usuarios sus compromisos, fomentando la consistencia y la motivación.",
+            "tags": [
+                "Tecnología",
+                "Móvil",
+                "Salud",
+                "Aplicación"
             ],
-            "status": "Completado",
-            "tasks": [
-                {
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
-                    "priority": "Urgente",
-                    "status": "Completado",
-                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                }
-            ]
-        },
-         {
-            "id": 2,
-            "title": "Título del proyecto",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
-            "tags": ["General", "Animales", "Página web", "Arte", "Naturaleza", "Medio ambiente", "Colaboración"],
             "members": [
                 {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                    "name": "Carlos",
+                    "last_name": "Ruiz",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=CR"
                 },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
-                },
-                   {
-                    "name": "Alejandro",
-                    "last_name": "Jiménez",
-                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                {
+                    "name": "Sofía",
+                    "last_name": "López",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=SL"
                 }
-                
             ],
             "status": "En proceso",
             "tasks": [
                 {
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "description": "Diseñar la interfaz de usuario.",
+                    "priority": "Urgente",
+                    "status": "En proceso",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=SL"
+                },
+                {
+                    "description": "Implementar la base de datos.",
+                    "priority": "Crítico",
+                    "status": "Sin iniciar",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=CR"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Campaña de Marketing Digital",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Marketing",
+            "description": "El objetivo de esta campaña es un lanzamiento publicitario integral en las principales redes sociales (Instagram, Facebook, Twitter y LinkedIn) para aumentar significativamente el alcance y la visibilidad de la marca. La estrategia incluye la creación de contenido multimedia atractivo, la segmentación precisa del público objetivo, la programación de publicaciones estratégicas y un monitoreo continuo del rendimiento para optimizar los anuncios y maximizar el retorno de la inversión.",
+            "tags": [
+                "Marketing",
+                "Redes Sociales",
+                "Publicidad",
+                "Digital"
+            ],
+            "members": [
+                {
+                    "name": "Ana",
+                    "last_name": "García",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=AG"
+                }
+            ],
+            "status": "Completado",
+            "tasks": [
+                {
+                    "description": "Crear contenido para publicaciones.",
+                    "priority": "Largo plazo",
+                    "status": "Completado",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=AG"
+                },
+                {
+                    "description": "Programar las publicaciones.",
+                    "priority": "Próximo",
+                    "status": "Completado",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=AG"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Rediseño de Página Web",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Web",
+            "description": "Este proyecto de rediseño busca revitalizar por completo la interfaz de usuario y mejorar la experiencia de navegación del sitio web actual. El objetivo es crear un diseño moderno y minimalista, optimizar la arquitectura de la información para facilitar el acceso a la información clave y asegurar que el sitio sea completamente responsivo en todos los dispositivos. Con esto, se espera no solo atraer a más visitantes, sino también aumentar la retención y las conversiones.",
+            "tags": [
+                "Página web",
+                "Diseño",
+                "Desarrollo",
+                "UI/UX"
+            ],
+            "members": [
+                {
+                    "name": "Juan",
+                    "last_name": "Pérez",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JP"
+                },
+                {
+                    "name": "Marta",
+                    "last_name": "Díaz",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=MD"
+                },
+                {
+                    "name": "Luis",
+                    "last_name": "Hernández",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=LH"
+                }
+            ],
+            "status": "En proceso",
+            "tasks": [
+                {
+                    "description": "Diseñar la maqueta de la página de inicio.",
                     "priority": "Crítico",
                     "status": "En proceso",
-                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=MD"
                 },
                 {
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "description": "Implementar la nueva barra de navegación.",
                     "priority": "Urgente",
-                    "status": "Completado",
-                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                    "status": "En proceso",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=LH"
                 },
                 {
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "description": "Revisar los textos y contenidos.",
+                    "priority": "Próximo",
+                    "status": "Sin iniciar",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=JP"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Investigación de Mercado",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Investigación",
+            "description": "Esta investigación de mercado exhaustiva tiene como objetivo principal identificar y analizar nuevas oportunidades de negocio, así como las tendencias emergentes en el comportamiento del consumidor. El proceso incluirá la recopilación de datos a través de encuestas y entrevistas a profundidad, un análisis comparativo de la competencia y la elaboración de un informe detallado que sirva como base para la toma de decisiones estratégicas de la empresa.",
+            "tags": [
+                "Negocio",
+                "Estudio",
+                "Datos"
+            ],
+            "members": [
+                {
+                    "name": "Pedro",
+                    "last_name": "Gómez",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=PG"
+                }
+            ],
+            "status": "Sin iniciar",
+            "tasks": [
+                {
+                    "description": "Recopilar datos de encuestas.",
+                    "priority": "Urgente",
+                    "status": "Sin iniciar",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=PG"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Desarrollo de una API",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=API",
+            "description": "El propósito de este proyecto es diseñar y construir una interfaz de programación de aplicaciones (API) robusta y segura. Esta API servirá como el puente de comunicación entre la aplicación móvil y la base de datos central, facilitando un intercambio de datos eficiente. Se implementarán endpoints RESTful para manejar la creación, lectura, actualización y eliminación de datos, asegurando una interacción fluida y escalable entre el frontend y el backend.",
+            "tags": [
+                "Tecnología",
+                "Backend",
+                "API",
+                "Desarrollo"
+            ],
+            "members": [
+                {
+                    "name": "Roberto",
+                    "last_name": "Gutiérrez",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=RG"
+                },
+                {
+                    "name": "Andrea",
+                    "last_name": "Vázquez",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=AV"
+                }
+            ],
+            "status": "En proceso",
+            "tasks": [
+                {
+                    "description": "Diseñar los endpoints.",
+                    "priority": "Crítico",
+                    "status": "En proceso",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=RG"
+                },
+                {
+                    "description": "Escribir la documentación.",
+                    "priority": "Próximo",
+                    "status": "Sin iniciar",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=AV"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Producción de Video Corporativo",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Video",
+            "description": "Este proyecto abarca todas las fases de producción de un video promocional de alta calidad, desde la concepción de la idea hasta el producto final. El video será diseñado para ser un elemento clave en el sitio web y en las campañas de redes sociales, con el fin de comunicar la misión, visión y valores de la empresa de manera visualmente atractiva y emotiva. Las tareas incluyen la escritura de un guión cautivador, la filmación profesional y una postproducción minuciosa con edición, efectos y banda sonora.",
+            "tags": [
+                "Marketing",
+                "Video",
+                "Contenido",
+                "Corporativo"
+            ],
+            "members": [
+                {
+                    "name": "Gabriela",
+                    "last_name": "Torres",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=GT"
+                },
+                {
+                    "name": "Javier",
+                    "last_name": "Molina",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JM"
+                },
+                {
+                    "name": "Javier",
+                    "last_name": "Molina",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JM"
+                },
+                {
+                    "name": "Javier",
+                    "last_name": "Molina",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JM"
+                },
+                {
+                    "name": "Javier",
+                    "last_name": "Molina",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JM"
+                }
+            ],
+            "status": "En proceso",
+            "tasks": [
+                {
+                    "description": "Escribir el guión.",
                     "priority": "Próximo",
                     "status": "En proceso",
-                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=GT"
                 },
                 {
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "description": "Grabar las escenas.",
+                    "priority": "Urgente",
+                    "status": "En proceso",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=JM"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Optimización para SEO",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=SEO",
+            "description": "Este proyecto tiene como fin mejorar el posicionamiento orgánico del sitio web en los motores de búsqueda como Google. La estrategia se basa en una auditoría SEO completa para identificar áreas de mejora, la optimización de palabras clave en el contenido, la revisión y mejora de la velocidad de carga del sitio, y la creación de una estrategia de link building para aumentar la autoridad del dominio, con el objetivo de atraer tráfico cualificado y aumentar la visibilidad en línea.",
+            "tags": [
+                "SEO",
+                "Web",
+                "Marketing"
+            ],
+            "members": [
+                {
+                    "name": "Elena",
+                    "last_name": "Moreno",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=EM"
+                }
+            ],
+            "status": "Sin iniciar",
+            "tasks": [
+                {
+                    "description": "Análisis de palabras clave.",
                     "priority": "Largo plazo",
                     "status": "Sin iniciar",
-                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=EM"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Lanzamiento de Producto",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Producto",
+            "description": "Este proyecto de lanzamiento de producto es una iniciativa estratégica para la introducción exitosa de una nueva oferta en el mercado. El plan de acción incluye la definición de una estrategia de precios competitiva, la creación de un plan de marketing de prelanzamiento, la preparación de materiales de ventas y la organización de eventos de lanzamiento. El objetivo es generar expectación, asegurar una adopción temprana por parte del público objetivo y establecer el producto como un líder en su categoría.",
+            "tags": [
+                "Estrategia",
+                "Lanzamiento",
+                "Negocio"
+            ],
+            "members": [
+                {
+                    "name": "Jorge",
+                    "last_name": "Ramírez",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=JR"
+                }
+            ],
+            "status": "Sin iniciar",
+            "tasks": [
+                {
+                    "description": "Estrategia de precios.",
+                    "priority": "Crítico",
+                    "status": "Sin iniciar",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=JR"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Desarrollo de E-commerce",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=E-commerce",
+            "description": "La meta de este proyecto es construir una plataforma de comercio electrónico funcional y fácil de usar desde cero. La tienda en línea incluirá un catálogo de productos completo, un sistema de carrito de compras intuitivo y múltiples opciones de pasarela de pago seguras. Se integrarán funcionalidades como la gestión de inventario, el seguimiento de pedidos y la gestión de clientes, lo que permitirá a la empresa expandir su canal de ventas y llegar a una audiencia global.",
+            "tags": [
+                "Página web",
+                "Ventas",
+                "E-commerce",
+                "Desarrollo"
+            ],
+            "members": [
+                {
+                    "name": "Laura",
+                    "last_name": "Sánchez",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=LS"
                 },
-                  {
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
-                    "priority": "Largo plazo",
-                    "status": "Sin iniciar",
-                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                {
+                    "name": "Felipe",
+                    "last_name": "Castro",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=FC"
+                }
+            ],
+            "status": "En proceso",
+            "tasks": [
+                {
+                    "description": "Implementar carrito de compras.",
+                    "priority": "Urgente",
+                    "status": "En proceso",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=FC"
                 },
-                  {
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
-                    "priority": "Largo plazo",
-                    "status": "Sin iniciar",
-                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                {
+                    "description": "Configurar pasarela de pago.",
+                    "priority": "Crítico",
+                    "status": "En proceso",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=LS"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Migración de Servidor",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Servidor",
+            "description": "Este proyecto técnico consiste en la migración completa de todos los datos, aplicaciones y servicios del servidor actual a una nueva infraestructura. La migración se realizará con el mínimo tiempo de inactividad posible, garantizando la integridad de los datos y la continuidad del servicio. El nuevo servidor, más potente y escalable, permitirá un mejor rendimiento y una mayor capacidad para futuras expansiones.",
+            "tags": [
+                "Tecnología",
+                "Servidor",
+                "Infraestructura",
+                "Migración"
+            ],
+            "members": [
+                {
+                    "name": "Daniel",
+                    "last_name": "López",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=DL"
+                }
+            ],
+            "status": "Completado",
+            "tasks": [
+                {
+                    "description": "Realizar copia de seguridad de la base de datos.",
+                    "priority": "Urgente",
+                    "status": "Completado",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=DL"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Capacitación de Empleados",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Capacitación",
+            "description": "Este proyecto está diseñado para crear y ofrecer un programa de capacitación integral para todo el personal, con el objetivo de asegurar que dominen el uso de la nueva plataforma de gestión de proyectos. El programa incluirá la elaboración de materiales didácticos, la programación de talleres interactivos y sesiones de formación individualizadas, y un seguimiento para evaluar la comprensión y la aplicación de los conocimientos adquiridos, facilitando una transición fluida y exitosa.",
+            "tags": [
+                "Recursos Humanos",
+                "Formación",
+                "Capacitación"
+            ],
+            "members": [
+                {
+                    "name": "Natalia",
+                    "last_name": "Morales",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=NM"
                 },
-                  {
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                {
+                    "name": "Esteban",
+                    "last_name": "Paredes",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=EP"
+                }
+            ],
+            "status": "Sin iniciar",
+            "tasks": [
+                {
+                    "description": "Diseñar el material didáctico.",
+                    "priority": "Próximo",
+                    "status": "Sin iniciar",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=NM"
+                },
+                {
+                    "description": "Programar las sesiones.",
                     "priority": "Largo plazo",
                     "status": "Sin iniciar",
-                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=EP"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Desarrollo de un Chatbot",
+            "image": "https://placehold.co/400x300/e0f2fe/1d4ed8?text=Chatbot",
+            "description": "El objetivo de este proyecto es el desarrollo de un chatbot impulsado por inteligencia artificial. Este asistente virtual estará integrado en el sitio web de la empresa para proporcionar soporte instantáneo a los clientes, responder a preguntas frecuentes, ayudar con la navegación y, en última instancia, mejorar la experiencia del usuario. El proyecto incluye la definición de flujos conversacionales, el entrenamiento del modelo de lenguaje y la implementación segura y escalable del chatbot.",
+            "tags": [
+                "Tecnología",
+                "IA",
+                "Automatización"
+            ],
+            "members": [
+                {
+                    "name": "Pablo",
+                    "last_name": "Romero",
+                    "image": "https://placehold.co/50x50/334155/f8fafc?text=PR"
+                }
+            ],
+            "status": "En proceso",
+            "tasks": [
+                {
+                    "description": "Entrenar al modelo de lenguaje.",
+                    "priority": "Crítico",
+                    "status": "En proceso",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=PR"
+                },
+                {
+                    "description": "Integrar el chatbot en el sitio web.",
+                    "priority": "Urgente",
+                    "status": "Sin iniciar",
+                    "member": "https://placehold.co/50x50/334155/f8fafc?text=PR"
                 }
             ]
         }
