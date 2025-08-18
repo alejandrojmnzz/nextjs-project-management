@@ -59,7 +59,7 @@
             "title": "Título del proyecto",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
-            "tags": ["General", "Animales", "Página web"],
+            "tags": ["General", "Animales", "Página web", "Arte", "Naturaleza", "Medio ambiente", "Colaboración"],
             "members": [
                 {
                     "name": "Alejandro",
@@ -102,8 +102,44 @@
             "tasks": [
                 {
                     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "priority": "Crítico",
+                    "status": "En proceso",
+                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                },
+                {
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
                     "priority": "Urgente",
                     "status": "Completado",
+                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                },
+                {
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "priority": "Próximo",
+                    "status": "En proceso",
+                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                },
+                {
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "priority": "Largo plazo",
+                    "status": "Sin iniciar",
+                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                },
+                  {
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "priority": "Largo plazo",
+                    "status": "Sin iniciar",
+                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                },
+                  {
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "priority": "Largo plazo",
+                    "status": "Sin iniciar",
+                    "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
+                },
+                  {
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, eaque?",
+                    "priority": "Largo plazo",
+                    "status": "Sin iniciar",
                     "member": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXJDjWwv-3uNFjV7y-fCwqHwE6o7QUddZzlQ&s"
                 }
             ]

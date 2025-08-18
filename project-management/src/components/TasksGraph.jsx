@@ -15,7 +15,7 @@ const data = {
     datasets: [
         {
             label: "Tareas",
-            data: [90, 20, 20],
+            data: tasksStatus,
             backgroundColor: [
                 "rgb(39, 235, 0)",
                 "rgb(255, 188, 44)",
@@ -27,8 +27,26 @@ const data = {
 }
 
     useEffect(() => {
-        console.log(tasks)
-    })
+        if (tasks) {
+
+            let completedTasks = 0
+            let inProgressTasks = 0
+            let notStartedTasks = 0
+            for(let i = 0; i <= tasks.length; i++) {
+                if (tasks[i]?.status == "Completado") {
+                    completedTasks += 1
+                }
+                if (tasks[i]?.status == "En proceso") {
+                    inProgressTasks += 1
+                }
+                if (tasks[i]?.status == "Sin iniciar") {
+                    notStartedTasks += 1
+                }
+            }
+            setTasksStatus([completedTasks, inProgressTasks, notStartedTasks])
+        }
+
+    }, [tasks])
 
     return(
         <div className="w-92 mt-3">
